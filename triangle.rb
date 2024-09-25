@@ -1,4 +1,3 @@
-r
 # Pascal's Triangle
 
 require 'io/console'
