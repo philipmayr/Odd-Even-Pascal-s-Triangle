@@ -13,7 +13,7 @@ j = 1
 while j < rows:
     print(' ', end='')
     j += 1
-
+    
 for i in first_row:
     # print(str(i) + ' ', end='')
     print('▲', end='')
@@ -24,11 +24,11 @@ j = 1
 while j < rows - 1:
     print(' ', end='')
     j += 1
-
+    
 for i in last_row:
     # print(str(i) + ' ', end='')
     print('▲ ', end='')
-
+    
 next_row = last_row.copy()
 
 index = 0
@@ -61,6 +61,6 @@ while iteration < rows:
             print('  ', end='')
         else:
             print('▲ ', end='')
-    
+            
     iteration += 1
     last_row = next_row.copy()
